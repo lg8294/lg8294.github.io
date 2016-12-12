@@ -1,0 +1,195 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>  
+	  
+  	iOS中高级开发有什么常用的工作流和工具？ - 李刚的技术博客
+  	
+	</title>
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="atom.xml" rel="alternate" title="李刚的技术博客" type="application/atom+xml">
+
+	<link href="asset/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<link href="asset/stylesheets/font-awesome.min.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<script src="asset/javascripts/jquery.min.js"></script>
+	<script src="asset/highlightjs/highlight.pack.js"></script>
+	<link href="asset/highlightjs/styles/solarized_dark.css" media="screen, projection" rel="stylesheet" type="text/css">
+<script>hljs.initHighlightingOnLoad();</script>
+
+	<!--[if lt IE 9]><script src="asset/javascripts/html5.js"></script><![endif]-->
+	<!-- <link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'> -->
+	<style type="text/css">
+/* latin */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Nunito-Light'), url(asset/font/1TiHc9yag0wq3lDO9cw0voX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Nunito-Regular'), url(asset/font/6TbRXKWJjpj6V2v_WyRbMX-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Nunito-Bold'), url(asset/font/TttUCfJ272GBgSKaOaD7KoX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+	</style>
+	
+	<style type="text/css">
+	.container .left-col{ opacity: 1;}
+	#pagenavi a{ font-size: 1.3em;}
+	#pagenavi .next:before{ top: 3px;}
+	#pagenavi .prev:before{ top: 3px;}
+	.container .mid-col .mid-col-container #content .archives .title{ font-size: 1.5em;}
+	.container .mid-col .mid-col-container #content article{ padding: 15px 0px;}
+	#header .subtitle {
+		line-height: 1.2em;
+		padding-top: 8px;
+	}
+	article pre{ background: none; border: none; padding: 0;}
+	article .entry-content{text-align: left;}
+	.share-comment{ padding: 25px 0px; clear: both;}
+	hr{ margin: 20px 0px;border: 0; border-top:solid 1px #ddd;}
+	</style>
+  
+
+</head>
+
+
+<body>
+	<div class="container">
+		<div class="left-col">
+			<div class="intrude-less">
+				<header id="header" class="inner">
+				 
+					
+					<h1><a href="index.html">李刚的技术博客</a></h1>
+					<p class="subtitle"></p>
+					<nav id="main-nav">
+						<ul class="main">
+						
+						  <li id=""><a target="self" href="index.html">Home</a></li>
+						
+						  <li id=""><a target="_self" href="archives.html">Archives</a></li>
+						
+						</ul>
+					</nav>
+
+					<nav id="sub-nav">
+						<div class="social">
+
+
+
+
+
+
+
+
+
+
+
+
+
+								
+
+								<a class="rss" href="atom.xml" title="RSS">RSS</a>
+							
+						</div>
+					</nav>
+				</header>				
+			</div>
+		</div>	
+		<div class="mid-col">
+			<div class="mid-col-container"> <div id="content" class="inner">
+
+	<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+		<h1 class="title" itemprop="name">iOS中高级开发有什么常用的工作流和工具？</h1>
+		<div class="entry-content" itemprop="articleBody">
+			<p>作者：coder yi<br/>
+链接：<a href="http://www.zhihu.com/question/50905679/answer/123285432">http://www.zhihu.com/question/50905679/answer/123285432</a><br/>
+来源：知乎<br/>
+著作权归作者所有，转载请联系作者获得授权。</p>
+
+<h2 id="toc_0">分为两部分 日常开发的效率工具 和 iOS开发的效率工具</h2>
+
+<h3 id="toc_1">日常开发的效率工具</h3>
+
+<ul>
+<li>HomeBrew + Cakebrew : macOS 不可或缺的套件管理器 ，Cakebrew则是 Homebrew GUI 应用</li>
+<li>SourceTree + gitflow : SourceTree是一个很好的git客户端,git-flow 是一个 git 扩展集，可以看看git-flow的工作流，git-flow 备忘清单</li>
+<li>sublime + packagecontrol : sublime文本编辑器 ，packagecontrol则是sublime的包管理工具</li>
+<li>shadowsocks + surge : 代理工具，shadowsocks也有自己的客户端，但是搭配surge用起来很更爽</li>
+<li>Zsh + Oh My Zsh : 用Oh My Zsh配置你的Zsh</li>
+<li>slack + slackin : slack是一个团队交流工具,加上slackin这个小工具则能够开放进入slack org的权限。</li>
+<li>macports : 软件包管理系统，跟HomeBrew差不多</li>
+<li>hopper : Mac的反编译软件</li>
+<li>Alfred : OS X 效率启动器,Alfred 有很多的workflow</li>
+<li>dash : API文档浏览器,代码片段管理工具</li>
+<li>Cornerstone ：SVN的客户端</li>
+<li>Charles ：抓包代理调试工具、类 Fiddler</li>
+<li>WireShark : 可以抓取TCP UDP 语音等各种包，Mac工具，比Charles强大</li>
+<li>Postman / Paw : API 测试工具</li>
+<li>VisualJSON ：很好的JSON工具</li>
+<li>Monodraw ：基于文本的流程图工具</li>
+<li>Sip ：抓颜色</li>
+<li>Mou/MacDown : Markdown编辑器</li>
+<li>MindManager ：思维导图</li>
+<li>MWeb : Markdown编辑器、静态网站博客编辑器</li>
+</ul>
+
+<h3 id="toc_2">iOS开发的效率工具</h3>
+
+<ul>
+<li>NWPusher / Knuff : 可以自己发送APNs，方面测试推送服务</li>
+<li>Cycript : 运行时工具，分析和修改iOS程序的运行时</li>
+<li>SQLiteManager/MesaSQLite : 管理本地电脑上的SQLite数据库</li>
+<li>PonyDebugger : 一个远程调试工具包，通过使用Chrome开发者工具来调试iOS应用的网络流量和数据存储</li>
+<li>Reveal : iOS程序界面调试工具</li>
+<li>iFunBox ：iOS文件管理工具</li>
+<li>CocoaPods-app : CocoaPods客户端</li>
+<li>AirServer ： AirPlay 屏幕镜像工具</li>
+<li>Resign ： 重签名ipa文件的工具</li>
+<li>Unused ：检查Xcode没用到的文件</li>
+<li>WWDC ： 观看WWDC的客户端</li>
+</ul>
+
+		</div>
+	</article>
+	<div class="share-comment">
+	 
+
+	  
+
+	  
+
+	</div>
+</div>        </div>
+			<footer id="footer" class="inner">Copyright &copy; 2014
+Powered by <a target="_blank" href="http://www.mweb.im">MWeb</a> &nbsp;&nbsp; 
+Theme by <a href="http://shashankmehta.in/archive/2012/greyshade.html">Shashank Mehta</a>
+      </footer>
+		</div>
+	</div>
+
+  
+    
+
+
+
+</body>
+</html>
