@@ -7,5 +7,5 @@ blogBtn.addEventListener('click', () => {
 });
 
 otherBtn.addEventListener('click', () => {
-	location.href = '/other/';
+	location.href = '/JavaScript30/';
 });
