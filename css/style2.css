@@ -1,0 +1,36 @@
+body {
+	min-height: 100vh;
+	/*display: flex;*/
+    background: black url(../image/background2.jpg);
+    background-size: cover;
+    background-position: center;
+    /*background-repeat: no-repeat;*/
+}
+
+.button {
+	width: 100px;
+	height: 100px;
+	/*background: white;*/
+	position: absolute;
+	right: 10px;
+	display: block;
+	/*outline: 1px solid red;*/
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.blog {
+	top: 50px;
+	background-image: url(../image/blog.png);
+}
+.blog:active {
+	background-image: url(../image/blog_click.png);
+}
+
+.other {
+	top: 160px;
+	background-image: url(../image/other.png);
+}
+.other:active {
+	background-image: url(../image/other_click.png);
+}
